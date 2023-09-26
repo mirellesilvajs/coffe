@@ -1,0 +1,11 @@
+Nos Códigos 1 e 2 temos a codificação das fontes utilizadas neste projeto.
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Lato&family=Oswald&display=swap" rel="stylesheet">
+
+Código 1. Código HTML das fontes do projeto
+
+font-family: 'Fraunces', serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;

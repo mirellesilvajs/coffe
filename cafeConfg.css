@@ -1,0 +1,235 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+/* === Seção topo ===*/
+.secao-topo{
+    background-color: #604829;
+    height: 70px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+}
+
+img{
+    margin-left: 55px;
+}
+
+.links-topo{
+    margin-left: 60vw;
+    margin-top: 25px;
+}
+
+a:link, a:visited {
+    padding: 20px;
+    color: #c4a47c;
+    text-decoration: none;
+    margin: 5px;
+    text-shadow: 4px 4px 2px #000;
+    font-family: Oswald;
+}
+
+/*=== banner inicial ===*/
+.secao-bannerTop{
+    background-image: url(assets/parallax-imagem1.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    min-height: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.secao-bannerTop h1{
+    font-family: fraunces;
+    color: white;
+    font-size: 100px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 20%;
+}
+
+/*=== seção informações ===*/
+h2{
+    width: 60vw;
+    font-family: oswald;
+    margin: auto;
+    color: #c4a47c;
+    padding-top: 50px;
+}
+
+p{
+    width: 45vw;
+    font-family: lato;
+    margin: auto;
+    color: #666;
+    padding: 50px 0;
+    line-height: 30px;
+}
+
+.secao-bannerInf{
+    background: url(assets/parallax-imagem2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    padding-top: 250px;
+}
+
+.secao-bannerInf h3{
+    font-family: fraunces;
+    color: #ffffff;
+    background-color: #604829;
+    font-style: italic;
+    font-weight: normal;
+    width: 350px;
+    margin: auto;   
+}
+
+.secao-bannerInf1{
+    background: url(assets/parallax-imagem3.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    padding-top: 250px;
+}
+
+.secao-bannerInf1 h3{
+    font-family: fraunces;
+    color: #ffffff;
+    background-color: #604829;
+    font-style: italic;
+    font-weight: normal;
+    width: 350px;
+    margin: auto;   
+}
+
+/*=== seção contatos ===*/
+.secao-contatos{
+    background: url(assets/parallax-imagem4.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.secao-contatos h2{
+    color: #fff;
+    background-color: #604829;
+    width: 20vw;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+.secao-contatos iframe{
+    width: 60vw;
+    height: 25vw;
+    margin-top: 20px;
+}
+
+.secao-contatos p{
+    width: 30vw;
+    text-align: center;
+    margin: 20px auto auto auto;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px #000;
+    font-family: Oswald;
+    padding: 0;
+}
+
+.contato1{
+    background-color: #604829;
+    width: 30vw;
+    margin: 20px auto auto auto;
+    padding-bottom: 20px;
+    padding-top: 2px;
+}
+
+/* === seção horario=== */
+.secao-bannerHorario{
+    background: url(assets/cafeteria.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 250px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.secao-bannerHorario ul{
+    width: 45vw;
+    margin: auto;
+}
+.secao-bannerHorario h2{
+    font-family: oswald;
+    color: #fff;
+    padding: 100px 0;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+.secao-bannerHorario li{
+    display: flex;
+
+}
+.lista{
+    margin: 10px;
+}
+.lista h3{
+    color: #fff;
+    font-family: oswald;
+    text-align: left;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+}
+.lista div{
+    background-color: #808080;
+    width: 70%;
+    height: 1px;
+    padding: 0;
+    margin: 15px auto;
+}
+.lista span{
+    font-family: oswald;
+    color: #c4a47c;
+
+}
+.lista p{
+    width: 15%;
+    font-family: lato;
+    margin: auto;
+    color: #acacac;
+    padding: auto;
+    line-height: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/*=== Rodape ===*/
+.rodape{
+    background-color: #000;
+}
+
+.rodape p{
+    width: 25%;
+    font-family: lato;
+    padding: 10px;
+    color: white;
+}
+
+.rodape span{
+    color: #c4a47c;
+}
